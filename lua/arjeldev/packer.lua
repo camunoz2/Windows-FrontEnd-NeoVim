@@ -11,6 +11,9 @@ return require('packer').startup(function(use)
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- Auto Close Tags
+  use 'm4xshen/autoclose.nvim'
+
   -- Theme: Catppuccin
   use { "catppuccin/nvim", as = "catppuccin" }
 
