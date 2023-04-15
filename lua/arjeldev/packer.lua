@@ -14,6 +14,8 @@ return require('packer').startup(function(use)
   -- Auto Close Tags
   use 'm4xshen/autoclose.nvim'
 
+  -- Auto close HTML tags
+  use 'windwp/nvim-ts-autotag'
   -- Theme: Catppuccin
   use { "catppuccin/nvim", as = "catppuccin" }
 
