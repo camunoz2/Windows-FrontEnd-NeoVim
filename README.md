@@ -28,14 +28,25 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 The <leader> key is remapped to the <space> key
 
 | Hotkey | Action |
-| --- | --- |
 | <leader>e | Open netrw |
 | sv | Vertical split |
 |<leader>a | add to harpoon |
 |<C-e>|open harpoon list|
 |<C-h/j/k/l>|Harpoon files|
-
-| key | functionality | \n| --- | --- |\n| <space>e | Open explorer |\n| vJ | Move selected text in visual mode down |\n| vK | Move selected text in visual mode up |\n| J | Append line without changing cursor |\n| <C-d> | Navigate down and center |\n| <C-u> | Navigate up and center |\n| n | Cycle through search results and center |\n| N | Cycle through search results and center |\n| <leader>y | Yank to clipboard |\n| <leader>d | Delete without affecting register |\n| Q | Disabled |\n| <leader>f | Format entire file with LSP |\n| <leader>s | Replace all occurrences of the hovered word |\n| <leader><leader> | Source the current file |
+| e | Open explorer |
+| vJ | Move selected text in visual mode down |
+| vK | Move selected text in visual mode up |
+| J | Append line without changing cursor |
+|  | Navigate down and center |
+|  | Navigate up and center |
+| n | Cycle through search results and center |
+| N | Cycle through search results and center |
+| y | Yank to clipboard |
+| d | Delete without affecting register |
+| Q | Disabled |
+| f | Format entire file with LSP |
+| s | Replace all occurrences of the hovered word |
+|  | Source the current file |
 
 
 ### LSP
