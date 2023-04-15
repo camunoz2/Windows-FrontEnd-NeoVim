@@ -28,6 +28,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 The <leader> key is remapped to the <space> key
 
 | Hotkey | Action |
+| --- | --- |
 | <leader>e | Open netrw |
 | sv | Vertical split |
 |<leader>a | add to harpoon |
