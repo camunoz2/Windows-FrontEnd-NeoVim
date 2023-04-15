@@ -32,13 +32,13 @@ The \<leader\> key is remapped to the <space> key
 | \<leader\>e | Open netrw |
 | sv | Vertical split |
 | \<leader\>a | add to harpoon |
-| <C-e> | open harpoon list |
-| <C-h/j/k/l> |Harpoon files |
+| \<C-e\> | open harpoon list |
+| \<C-h/j/k/l> |Harpoon files |
 | J | Move selected text in visual mode down |
 | K | Move selected text in visual mode up |
 | J | Append line without changing cursor |
-| <C-d> | Navigate down and center |
-| <C-u> | Navigate up and center |
+| \<C-d\> | Navigate down and center |
+| \<C-u\> | Navigate up and center |
 | n, N | Cycle through search results and center |
 | \<leader\>yy | Yank to clipboard |
 | \<leader\>yap | Yank paragraph to clipboard |
