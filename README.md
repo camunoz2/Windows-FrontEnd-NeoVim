@@ -64,6 +64,7 @@ The \<leader\> key is remapped to the <space> key
 | \<F4\> | Selects a code action available at the current cursor position |
 | gl | Show diagnostics in a floating window |
 | \]d | Move to the next diagnostic |
+| \<leader\> | Pick the symbol |
 
 
 ## Notes
