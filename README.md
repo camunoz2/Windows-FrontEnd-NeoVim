@@ -59,9 +59,9 @@ The \<leader\> key is remapped to the <space> key
 | go | Jumps to the definition of the type of the symbol under the cursor |
 | gr | Lists all the references to the symbol under the cursor in the quickfix window |
 | gs | Displays signature information about the symbol under the cursor in a floating window. If a mapping already exists for this key this function is not bound |
-| <F2> | Renames all references to the symbol under the cursor |
-| <F3> | Format code in current buffer |
-| <F4> | Selects a code action available at the current cursor position |
+| \<F2\> | Renames all references to the symbol under the cursor |
+| \<F3\> | Format code in current buffer |
+| \<F4\> | Selects a code action available at the current cursor position |
 | gl | Show diagnostics in a floating window |
 | \]d | Move to the next diagnostic |
 
