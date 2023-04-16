@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 
 -- Open explorer
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>e", ":Telescope file_browser<CR>" )
 
 -- Move selected Text in visual mode up and Down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
