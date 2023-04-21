@@ -34,6 +34,10 @@ vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 -- Reaplace all ocurrences of the hovered word
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+-- Set React Extract snippet
+vim.keymap.set({ "v" }, "<Leader>re", require("react-extract").extract_to_new_file)
+vim.keymap.set({ "v" }, "<Leader>rc", require("react-extract").extract_to_current_file)
+
 -- Source the current file, Pretty neat!
 vim.keymap.set("n", "<leader><leader>", function()
   vim.cmd("so")

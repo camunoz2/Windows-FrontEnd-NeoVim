@@ -27,6 +27,8 @@ return require('packer').startup(function(use)
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
   }
+  -- Extract JSX into a new react component
+  use "napmn/react-extract.nvim"
 
   -- Harpoon: for Blazingly fast file navigation
   use 'ThePrimeagen/harpoon'
