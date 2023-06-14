@@ -17,10 +17,9 @@ scoop install gcc
 Then download NeoVim. I suggest to download the binary from the website and then add that to the your PATH variable.
 Run `gcc --version` on your powershell to make sure that the compiler is installed.  
 
-Install packer with
+Install packer in powershell with
 ```bash
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 ```
 ## Remaps!
 The \<leader\> key is remapped to the <space> key
