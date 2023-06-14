@@ -10,14 +10,12 @@ Install scoop (we are gonna need this after)
 ```bash
 iwr -useb get.scoop.sh | iex
 ```
-Then you could use scoop to install some dependencies (like fd for telescope to work properly)
-Install MSYS2 for the C compiler. Enter the MSYSUCRT64 and run the command
+With scoop installed, install the gcc compiler for telescope to work properly
 ```bash
-pacman -S mingw-w64-ucrt-x86_64-gcc
+scoop install gcc
 ```
-Then add those to your PATH variable
-
-Then download NeoVim. I suggest to download the binary from the website and then add that to the your PATH variable. Run `gcc --version` on your powershell to make sure that the compiler is installed.  
+Then download NeoVim. I suggest to download the binary from the website and then add that to the your PATH variable.
+Run `gcc --version` on your powershell to make sure that the compiler is installed.  
 
 Install packer with
 ```bash
