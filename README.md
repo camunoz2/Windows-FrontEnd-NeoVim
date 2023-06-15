@@ -50,10 +50,10 @@ in ~/.config/nvim/ftdetect/astro.lua.
 ### Parser dependencies
 If the syntax highlighting doesn't work for embedded CSS/JSX, make sure you have all of the following tree-sitter parsers installed:
 
--[] css (for CSS in style elements)
--[] typescript (for the frontmatter)
--[] tsx (for interpolations)
--[] If it still doesn't work after that, open an issue.
+- css (for CSS in style elements)
+- typescript (for the frontmatter)
+- tsx (for interpolations)
+- If it still doesn't work after that, open an issue.
 
 
 
