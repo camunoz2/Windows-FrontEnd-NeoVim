@@ -15,6 +15,11 @@ With scoop installed, install the gcc compiler for telescope to work properly
 scoop install gcc
 ```
 Then download NeoVim. I suggest to download the binary from the website and then add that to the your PATH variable.
+Or you can install with `Winget`
+```bash
+winget install Neovim.Neovim
+```
+
 Run `gcc --version` on your powershell to make sure that the compiler is installed.  
 
 Install packer in powershell with
