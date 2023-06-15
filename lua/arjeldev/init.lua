@@ -1,5 +1,5 @@
-require('arjeldev.remaps')
 require('arjeldev.packer')
+require('arjeldev.remaps')
 require('arjeldev.set')
 
 -- Simple Plugins woth No Conf
