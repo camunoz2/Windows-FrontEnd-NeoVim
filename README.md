@@ -21,6 +21,11 @@ Install packer in powershell with
 ```bash
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 ```
+Then, run this command to copy the template files
+```bash
+git clone https://github.com/camunoz2/Windows-FrontEnd-NeoVim "$env:LOCALAPPDATA\nvim\"
+```
+
 ## Remaps!
 The \<leader\> key is remapped to the <space> key
 
