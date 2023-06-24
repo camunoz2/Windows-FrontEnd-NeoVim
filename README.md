@@ -31,6 +31,9 @@ Then, run this command to copy the template files
 git clone https://github.com/camunoz2/Windows-FrontEnd-NeoVim "$env:LOCALAPPDATA\nvim\"
 ```
 
+You're ready to go, just type `nvim` and run `:PackerSync`. Maybe you need to quit nvim and run `:PackerSync` again to install the missing packages.
+Enjoy!!
+
 ## Troubleshooting
 ### Filetype
 
