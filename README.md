@@ -35,6 +35,11 @@ You're ready to go, just type `nvim` and run `:PackerSync`. Maybe you need to qu
 Enjoy!!
 
 ## Troubleshooting
+
+### Fonts
+
+Download `FiraCode` nerd font to have all the icons! And add it to your Powershell configuration for those FatArrows!
+
 ### Filetype
 
 Neovim doesn't mark .astro files with the Astro filetype by default yet, so nvim-treesitter can't tell that tree-sitter-astro must be used for .astro files. Either put
