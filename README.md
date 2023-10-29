@@ -108,6 +108,9 @@ The \<leader\> key is remapped to the <space> key
 | \]d | Move to the next diagnostic |
 | \<leader\> | Pick the symbol |
 
+### Current Plugins
+
+![packer_plugins](./packer.png)
 
 ## Notes
 Note: :TSUpdate will cause Packer to fail upon the first installation. It will run correctly when updating. To avoid this, call nvim-treesitter.install.update() directly:
