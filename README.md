@@ -22,7 +22,7 @@ winget install Neovim.Neovim
 
 Run `gcc --version` on your powershell to make sure that the compiler is installed.  
 
-Install packer in powershell with
+Install packer
 ```bash
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
 ```
